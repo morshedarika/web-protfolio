@@ -1,10 +1,15 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+
 body{
+    margin: 0%;
      font-family: Arial, Helvetica, sans-serif;
 }
-.name-color {
+.orange-color {
     color: orangered;
 }
 .half-width{
@@ -15,4 +20,50 @@ body{
 }
 .half-width img{
     width: 70%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url( images/top-banner.png)
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( lightsalmon,tomato );
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.Dream.area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px slategray;
+    border-radius: 5px;
+    height: 50;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5%;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
